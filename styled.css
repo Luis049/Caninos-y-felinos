@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    background-color: #f2f2f2;
+}
+
+header {
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    height: 100%;;
+    background-image: url(./Imagenes/fondo-fooder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.info h2 {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.info h1 {
+    font-weight: bolder;
+    align-self: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.info .info-rigth {
+    padding-left: 180px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.image-header-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background: #417d7a;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    border-right: 1px solid white;
+    color: white;
+    padding-right: 36px;
+}
+
+.no-borde {
+    text-decoration: none;
+    color: white;
+    border-right: none;
+}
+
+.menu ul li a:hover {
+    color: gray;
+}
+    
+.consejos-para-mascotas {
+    display: grid;
+    grid-template-columns: 3fr, 2fr;
+    grid-template-rows: 300px, 300px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.educacion-mascota {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #F1E0AC;;
+    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color:#141E27;
+}
+
+p {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color:#141E27;
+}
+
+.perros-img {
+    position: relative;
+    place-items: center;
+    width: 100px;
+    height: auto;
+    float: right;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: -20px;
+    margin-right: 20px;
+
+    
+}
+
+.consejos-mascotas {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #F1E0AC ;
+    padding-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.form-container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-color:#74959A;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.form-container .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #DDDDDD;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgb(82, 75, 75);
+}
+
+.formulario {
+    width: 250px;
+    height: auto;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.nombre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    margin: auto 10px;
+   
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #DDDDDD;
+}
+
+.input {
+    width: 124px;
+    height: 24px;
+    border: 1px solid gray;
+}
+
+.input-mascota,
+.input-edad,
+.input-raza,
+.input-fecha,
+.input-hora,
+.input-amo {
+    width:150px;
+	padding:3px 10px;
+    font-weight: 700;
+	border:2px solid gray;
+}
+
+.validar-cita {
+    font-size: 12px;
+    font-weight: bold;  
+    color: gray;
+    padding: 5px 10px;
+    border-radius: 20px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.fooder {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    background: #417d7a;
+    color:#DDDDDD;
+    text-align:center;
+    margin-bottom: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fooder h3 {
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
